@@ -37,7 +37,7 @@
       const url = 'https://dummyjson.com/products/' + id;
       fetch(url)
           .then(response => response.json())
-          .then( data = this.products = data)
+          .then( this.data = this.products = data)
     }
   }
 </script>
